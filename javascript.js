@@ -15,4 +15,6 @@ reduced = animalsMap.reduce(function(total, mappedAnimal) {
   return total + mappedAnimal.vowels;
 }, 0);  // What is the 0?  What if it was []?
 
-console.log('animals', animals, 'animalsMap', animalsMap, 'reduced', reduced);
+console.log('animals', animals);
+console.log('animalsMap', animalsMap);
+console.log('reduced', reduced);
